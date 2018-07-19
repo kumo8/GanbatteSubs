@@ -10,15 +10,15 @@ PlayResX: 1280
 PlayResY: 720
 
 [Aegisub Project Garbage]
-Automation Scripts: ~import.lua
 Last Style Storage: Default
 Audio File: 第01話.mkv
 Video File: 第01話.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Active Line: 191
-Video Position: 21196
+Scroll Position: 220
+Active Line: 248
+Video Position: 27460
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -1330,7 +1330,7 @@ Dialogue: 0,0:18:47.91,0:18:52.49,Default,,0,0,0,,When a genius dies, so too doe
 Dialogue: 0,0:18:52.49,0:18:54.65,Default,,0,0,0,,However, back in the middle ages,
 Dialogue: 0,0:18:54.65,0:18:57.06,Default,,0,0,0,,a group invented a wicked procedure
 Dialogue: 0,0:18:57.06,0:19:02.82,Default,,0,0,0,,that binds a guardian spirit and allowed them to use its power.
-Dialogue: 0,0:19:02.82,0:19:05.65,Default,,0,0,0,,They called themselves "The Tailors".
+Dialogue: 0,0:19:02.82,0:19:05.65,Default,,0,0,0,,They called themselves "tailors".
 Dialogue: 0,0:19:08.87,0:19:11.44,Default,,0,0,0,,Once they abducted a genius, they would
 Dialogue: 0,0:19:11.44,0:19:14.07,Default,,0,0,0,,carve magic wards all over their body to stave off death,
 Dialogue: 0,0:19:14.07,0:19:16.74,Default,,0,0,0,,break their bones, and drain their blood.
