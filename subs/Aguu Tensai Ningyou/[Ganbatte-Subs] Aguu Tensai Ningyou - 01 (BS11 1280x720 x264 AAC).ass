@@ -10,23 +10,20 @@ PlayResX: 1280
 PlayResY: 720
 
 [Aegisub Project Garbage]
+Automation Scripts: ~import.lua
 Last Style Storage: Default
-Audio File: 第01話.mp4
-Video File: 第01話.mp4
+Audio File: 第01話.mkv
+Video File: 第01話.mkv
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.625000
-Scroll Position: 236
-Active Line: 257
-Video Position: 28892
+Video Zoom Percent: 0.500000
+Active Line: 191
+Video Position: 21196
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Titillium Web SemiBold,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,50,50,40,1
-Style: Higher,Titillium Web SemiBold,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,50,50,70,1
-Style: Higher-er,Titillium Web SemiBold,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,50,50,100,1
-Style: Small-Top,Titillium Web SemiBold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,50,50,40,1
-Style: Small-Bottom,Titillium Web SemiBold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,50,50,40,1
+Style: Default,Titillium Web SemiBold,65,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,50,50,40,1
+Style: Signs,Arial,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
 
 [Fonts]
 fontname: TitilliumWeb-SemiBold_0.ttf
@@ -1082,10 +1079,13 @@ $DA>&!YY(21//"U5$DA>&![](6Y/P"V?$LQ>8AM_'X90^"WS$`1>MA`U(<)1'BX9%"I>W"!;(>A1'BX9
 !'-!?!#!!6Q"81!#!"I!#A&V!89">!&T!8="?!&Z!8I"?Q&]!!)!!Q"T!(1!!!"[!(I!!A&M!8)!!Q!!
 !!!!!1!!!!!
 
+
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:05.00,Small-Bottom,,0,0,0,,These subtitles are not for distribution on for-profit streaming websites. The operators of these websites are pulling a profit from the hard work of fansubbers, and the anime creators themselves.
-Dialogue: 0,0:00:00.00,0:00:05.00,Small-Top,,0,0,0,,https://kumo8.github.io/GanbatteSubs/
+Dialogue: 0,0:00:00.00,0:00:00.02,Default,chptr,0,0,0,,{OP}
+Dialogue: 0,0:00:00.00,0:00:05.00,Small-Bottom,,0,0,0,,{\fs45}These subtitles are not for distribution on for-profit streaming websites. The operators of these websites are pulling a profit from the hard work of fansubbers, and the anime creators themselves.
+Dialogue: 0,0:00:00.00,0:00:05.00,Small-Top,,0,0,0,,{\an8\fs45}https://kumo8.github.io/GanbatteSubs/
+Dialogue: 0,0:01:40.03,0:01:40.08,Default,chptr,0,0,0,,{Part A}
 Dialogue: 0,0:01:43.44,0:01:48.44,Default,,0,0,0,,These people are probably all around you.
 Dialogue: 0,0:01:48.44,0:01:51.47,Default,,0,0,0,,No matter how hard you try, you can never match them.
 Dialogue: 0,0:01:51.47,0:01:57.37,Default,,0,0,0,,People you can't help but look at with envy and jealousy.
@@ -1104,14 +1104,14 @@ Dialogue: 0,0:02:34.40,0:02:37.22,Default,,0,0,0,,Is this even a manga?
 Dialogue: 0,0:02:37.22,0:02:41.15,Default,,0,0,0,,It's only exposition. Where's the main character?
 Dialogue: 0,0:02:41.15,0:02:42.42,Default,,0,0,0,,What a strange book.
 Dialogue: 0,0:02:42.42,0:02:44.49,Default,,0,0,0,,Excuse me.
-Dialogue: 0,0:02:44.49,0:02:47.18,Higher,,0,0,0,,Could you take your legs off the shelves please?
-Dialogue: 0,0:02:47.18,0:02:48.59,Higher,,0,0,0,,Huh?
-Dialogue: 0,0:02:50.85,0:02:55.58,Higher,,0,0,0,,S-sorry sorry sorry sorry....
-Dialogue: 0,0:02:55.58,0:02:57.36,Higher,,0,0,0,,My name is Ai.
-Dialogue: 0,0:02:57.36,0:02:59.29,Higher,,0,0,0,,I like manga and hot guys.
-Dialogue: 0,0:02:59.29,0:03:01.46,Higher-er,,0,0,0,,I'm a normal 16 year-old girl.
-Dialogue: 0,0:03:01.46,0:03:05.93,Higher-er,,0,0,0,,Any time, any place, I'll absent-mindedly do the splits.
-Dialogue: 0,0:03:05.93,0:03:09.51,Higher-er,,0,0,0,,It will often surprise those around me, though....
+Dialogue: 0,0:02:44.49,0:02:47.18,Default,,0,0,0,,{\pos(640,650)}Could you take your legs off the shelves please?
+Dialogue: 0,0:02:47.18,0:02:48.59,Default,,0,0,0,,{\pos(640,650)}Huh?
+Dialogue: 0,0:02:50.85,0:02:55.58,Default,,0,0,0,,{\pos(640,650)}S-sorry sorry sorry sorry....
+Dialogue: 0,0:02:55.58,0:02:57.36,Default,,0,0,0,,{\pos(640,650)}My name is Ai.
+Dialogue: 0,0:02:57.36,0:02:59.29,Default,,0,0,0,,{\pos(640,650)}I like manga and hot guys.
+Dialogue: 0,0:02:59.29,0:03:01.46,Default,,0,0,0,,{\pos(640,620)}I'm a normal 16 year-old girl.
+Dialogue: 0,0:03:01.46,0:03:05.93,Default,,0,0,0,,{\pos(640,620)}Any time, any place, I'll absent-mindedly do the splits.
+Dialogue: 0,0:03:05.93,0:03:09.51,Default,,0,0,0,,{\pos(640,620)}It will often surprise those around me, though....
 Dialogue: 0,0:03:12.61,0:03:14.59,Default,,0,0,0,,It's my habit.
 Dialogue: 0,0:03:14.59,0:03:17.96,Default,,0,0,0,,It's because I'm a professional ballet dancer.
 Dialogue: 0,0:03:17.96,0:03:19.21,Default,,0,0,0,,Well...
@@ -1126,7 +1126,7 @@ Dialogue: 0,0:03:53.64,0:03:57.85,Default,,0,0,0,,But I was left struggling to i
 Dialogue: 0,0:03:57.85,0:04:03.41,Default,,0,0,0,,Though, thankfully, we remained friends.
 Dialogue: 0,0:04:07.83,0:04:10.31,Default,,0,0,0,,Her name is Machi.
 Dialogue: 0,0:04:10.31,0:04:16.30,Default,,0,0,0,,I wanted to become like her and put my heart into my practice.
-Dialogue: 0,0:04:17.24,0:04:20.61,Default,,0,0,0,,I am... probably not a prodigy.
+Dialogue: 0,0:04:17.24,0:04:20.61,Default,,0,0,0,,I am... probably not a genius.
 Dialogue: 0,0:04:20.61,0:04:26.94,Default,,0,0,0,,But I believe that if I work hard, it will someday pay off.
 Dialogue: 0,0:04:28.48,0:04:31.18,Default,,0,0,0,,I'm done. I'm too tired.
 Dialogue: 0,0:04:31.18,0:04:33.32,Default,,0,0,0,,Machi, what about practice?
@@ -1180,10 +1180,10 @@ Dialogue: 0,0:07:55.32,0:07:57.99,Default,,0,0,0,,This is our place.
 Dialogue: 0,0:07:57.99,0:08:01.90,Default,,0,0,0,,Though if you were to insist...
 Dialogue: 0,0:08:01.90,0:08:04.13,Default,,0,0,0,,We'll take this gentleman.
 Dialogue: 0,0:08:04.13,0:08:07.42,Default,,0,0,0,,There aren't any men in our group, you know.
-Dialogue: 0,0:08:07.42,0:08:10.90,Default,,0,0,0,,{\move(-500,680,600,680,0,300)}- Ooh, how nice.
-Dialogue: 0,0:08:08.16,0:08:10.90,Default,,0,0,0,,{\move(-500,620,600,620,0,300)}- Wonderful.
-Dialogue: 0,0:08:09.11,0:08:10.90,Default,,0,0,0,,{\move(-500,560,600,560,0,300)}- Yes, let's get this one.
-Dialogue: 0,0:08:10.90,0:08:14.41,Default,,0,0,0,,{\move(-500,680,600,680,0,100)}Don't be ridiculous. Gramps' gotta sell these books.
+Dialogue: 0,0:08:07.42,0:08:08.16,Default,,0,0,0,,Ooh, how nice.
+Dialogue: 0,0:08:08.16,0:08:09.11,Default,,0,0,0,,Wonderful.
+Dialogue: 0,0:08:09.11,0:08:10.90,Default,,0,0,0,,Yes, let's get this one.
+Dialogue: 0,0:08:10.90,0:08:14.41,Default,,0,0,0,,Don't be ridiculous. Gramps' gotta sell these books.
 Dialogue: 0,0:08:14.41,0:08:15.85,Default,,0,0,0,,He can't dance!
 Dialogue: 0,0:08:15.85,0:08:19.15,Default,,0,0,0,,Well then get out of the way!
 Dialogue: 0,0:08:23.24,0:08:28.16,Default,,0,0,0,,T-that book, that's the one I read in the bookshop this morning, right?
@@ -1191,7 +1191,7 @@ Dialogue: 0,0:08:29.62,0:08:32.02,Default,,0,0,0,,Rafu, let's go somewhere else.
 Dialogue: 0,0:08:32.02,0:08:34.61,Default,,0,0,0,,We're causing a nuisance.
 Dialogue: 0,0:08:34.61,0:08:36.01,Default,,0,0,0,,But Gramps...
 Dialogue: 0,0:08:36.01,0:08:42.32,Default,,0,0,0,,Hey kid, you should listen to your Grandpa.
-Dialogue: 0,0:08:43.68,0:08:45.40,Default,,0,0,0,,Yeah I know.
+Dialogue: 0,0:08:43.68,0:08:45.40,Default,,0,0,0,,Yeah, I know.
 Dialogue: 0,0:08:45.40,0:08:48.34,Default,,0,0,0,,If it's gonna be like this, I'll dance.
 Dialogue: 0,0:08:48.34,0:08:49.72,Default,,0,0,0,,What?
 Dialogue: 0,0:08:49.72,0:08:54.87,Default,,0,0,0,,I said I'll dance with you instead of Gramps.
@@ -1199,7 +1199,9 @@ Dialogue: 0,0:08:54.87,0:08:57.05,Default,,0,0,0,,But while I'm dancing with you
 Dialogue: 0,0:08:57.05,0:08:59.47,Default,,0,0,0,,leave Gramps alone and let him sell books here.
 Dialogue: 0,0:08:59.47,0:09:01.09,Default,,0,0,0,,Are you sure?
 Dialogue: 0,0:09:01.09,0:09:02.42,Default,,0,0,0,,It's fine.
-Dialogue: 0,0:09:02.42,0:09:06.10,Default,,0,0,0,,- You'll dance?\N- Isn't he too young?\N- He's not the type.
+Dialogue: 0,0:09:02.42,0:09:03.40,Default,,0,0,0,,You'll dance?
+Dialogue: 0,0:09:03.40,0:09:04.78,Default,,0,0,0,,Isn't he too young?
+Dialogue: 0,0:09:04.78,0:09:06.10,Default,,0,0,0,,He's not the type.
 Dialogue: 0,0:09:06.10,0:09:07.53,Default,,0,0,0,,Shut up!
 Dialogue: 0,0:09:07.53,0:09:11.89,Default,,0,0,0,,Anyway, we're in the way of Gramps here. Follow me.
 Dialogue: 0,0:09:32.26,0:09:33.49,Default,,0,0,0,,Let me help.
@@ -1232,10 +1234,12 @@ Dialogue: 0,0:10:59.68,0:11:01.52,Default,,0,0,0,,Aguu.
 Dialogue: 0,0:11:01.52,0:11:02.72,Default,,0,0,0,,Aguu?
 Dialogue: 0,0:11:02.72,0:11:06.48,Default,,0,0,0,,Those of us who don't have an aguu
 Dialogue: 0,0:11:06.48,0:11:10.59,Default,,0,0,0,,are without a doubt, on the losing side.
+Dialogue: 0,0:11:22.99,0:11:23.03,Default,chptr,0,0,0,,{Part B}
 Dialogue: 0,0:11:36.85,0:11:38.08,Default,,0,0,0,,Who's there?
 Dialogue: 0,0:11:41.29,0:11:43.87,Default,,0,0,0,,Ai, the bath is free.
 Dialogue: 0,0:11:43.87,0:11:47.71,Default,,0,0,0,,What's wrong? You look like you've seen a ghost.
-Dialogue: 0,0:11:47.71,0:11:49.78,Default,,0,0,0,,M-man.\N(Translator's note: Man is the person's name)
+Dialogue: 0,0:11:47.71,0:11:49.78,Default,,0,0,0,,M-man.
+Dialogue: 0,0:11:47.71,0:11:49.78,Default,,0,0,0,,{\an8}(Translator's note: 'Man' is the person's name)
 Dialogue: 0,0:11:49.78,0:11:52.76,Default,,0,0,0,,Don't scare me like that.
 Dialogue: 0,0:11:52.76,0:11:54.81,Default,,0,0,0,,I was just letting you know.
 Dialogue: 0,0:11:54.81,0:11:56.02,Default,,0,0,0,,So, what about the bath?
@@ -1302,7 +1306,7 @@ Dialogue: 0,0:17:06.52,0:17:08.39,Default,,0,0,0,,I see.
 Dialogue: 0,0:17:08.39,0:17:09.97,Default,,0,0,0,,Please tell me.
 Dialogue: 0,0:17:09.97,0:17:13.16,Default,,0,0,0,,Was that aguu?
 Dialogue: 0,0:17:13.86,0:17:20.69,Default,,0,0,0,,Aguu glasses make the powers emitted by the aguu visible.
-Dialogue: 0,0:17:20.69,0:17:22.85,Default,,0,0,0,,That you saw what you did, 
+Dialogue: 0,0:17:20.69,0:17:22.85,Default,,0,0,0,,That you saw what you did,
 Dialogue: 0,0:17:22.85,0:17:29.41,Default,,0,0,0,,means that your friend is borrowing the power of the aguu.
 Dialogue: 0,0:17:30.08,0:17:32.93,Default,,0,0,0,,May I ask a question?
 Dialogue: 0,0:17:33.63,0:17:38.48,Default,,0,0,0,,Did the faces of any of the three aguu you saw seem familiar to you?
@@ -1353,8 +1357,8 @@ Dialogue: 0,0:20:37.71,0:20:41.41,Default,,0,0,0,,Three people who did nothing w
 Dialogue: 0,0:20:41.41,0:20:42.63,Default,,0,0,0,,and you don't care.
 Dialogue: 0,0:20:42.63,0:20:44.92,Default,,0,0,0,,Machi might not know that!
 Dialogue: 0,0:20:44.92,0:20:47.10,Default,,0,0,0,,No way she doesn't know.
-Dialogue: 0,0:20:47.10,0:20:49.92,Default,,0,0,0,,She would see when she sewed the aguu into her body.
-Dialogue: 0,0:20:49.92,0:20:51.60,Default,,0,0,0,,The suffering aguu.
+Dialogue: 0,0:20:47.10,0:20:49.92,Default,,0,0,0,,She would have seen when they were sewn into her body.
+Dialogue: 0,0:20:49.92,0:20:51.60,Default,,0,0,0,,The suffering aguu, that is.
 Dialogue: 0,0:20:51.60,0:20:52.64,Default,,0,0,0,,Please stop, Rafu.
 Dialogue: 0,0:20:52.64,0:20:56.68,Default,,0,0,0,,I don't believe you. Machi has always been so nice.
 Dialogue: 0,0:20:56.68,0:21:01.07,Default,,0,0,0,,Nice? Anyone who uses aguu is scum.
@@ -1376,3 +1380,4 @@ Dialogue: 0,0:21:51.78,0:21:53.91,Default,,0,0,0,,Saviours?
 Dialogue: 0,0:21:53.91,0:22:00.17,Default,,0,0,0,,Releasing all the aguu is our mission as saviours.
 Dialogue: 0,0:22:00.17,0:22:04.31,Default,,0,0,0,,I cannot overlook the aguu before me.
 Dialogue: 0,0:22:04.31,0:22:10.92,Default,,0,0,0,,Will you help us save those three, miss?
+Dialogue: 0,0:22:14.98,0:22:15.02,Default,chptr,0,0,0,,{ED}
